@@ -1,0 +1,67 @@
+2016-05-29 12:57:32.751 [WARN ] [o.config.core.ConfigDispatcher] - Main openHAB configuration file 'configurations/openhab.cfg' does not exist.
+2016-05-29 12:57:32.757 [INFO ] [.o.core.internal.CoreActivator] - openHAB runtime has been started (v1.8.3).
+2016-05-29 12:57:33.663 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - mDNS service has been started
+2016-05-29 12:57:33.732 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - Service Discovery initialization completed.
+2016-05-29 12:57:35.459 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-29 12:57:43.328 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.sitemap'
+2016-05-29 12:57:43.526 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'db4o.persist'
+2016-05-29 12:57:43.543 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'exec.persist'
+2016-05-29 12:57:43.547 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'logging.persist'
+2016-05-29 12:57:43.552 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'rrd4j.persist'
+2016-05-29 12:57:43.632 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.script'
+2016-05-29 12:57:43.797 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.items'
+2016-05-29 12:57:43.976 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Started Classic UI at /classicui/openhab.app
+2016-05-29 12:57:47.799 [INFO ] [.p.rrd4j.internal.RRD4jService] - Removing invalid defintion component = null heartbeat = 0 min/max = 0.0/0.0 step = 0 0 archives(s) = [] 0 items(s) = []
+2016-05-29 12:57:47.973 [INFO ] [.service.AbstractActiveService] - HTTP Refresh Service has been started
+2016-05-29 12:57:48.056 [INFO ] [.service.AbstractActiveService] - NTP Refresh Service has been started
+2016-05-29 12:57:48.707 [WARN ] [.httpclient.HttpMethodDirector] - Unable to respond to any of these challenges: {oauth=OAuth oauth_problem="OST_OAUTH_PARAMETER_ABSENT_ERROR", realm="yahooapis.com"}
+2016-05-29 12:57:48.707 [WARN ] [g.openhab.io.net.http.HttpUtil] - Method failed: HTTP/1.1 401 Unauthorized
+2016-05-29 12:57:49.169 [WARN ] [.httpclient.HttpMethodDirector] - Unable to respond to any of these challenges: {oauth=OAuth oauth_problem="OST_OAUTH_PARAMETER_ABSENT_ERROR", realm="yahooapis.com"}
+2016-05-29 12:57:49.171 [WARN ] [g.openhab.io.net.http.HttpUtil] - Method failed: HTTP/1.1 401 Unauthorized
+2016-05-29 12:57:53.973 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.rules'
+2016-05-29 12:57:54.619 [ERROR] [m.r.internal.engine.RuleEngine] - Error during the execution of startup rule 'Initialize light states': Could not invoke method: org.openhab.model.script.actions.BusEvent.postUpdate(org.openhab.core.items.Item,java.lang.String) on instance: null
+2016-05-29 12:57:54.714 [ERROR] [m.r.internal.engine.RuleEngine] - Error during the execution of startup rule 'Initialize heating states': Could not invoke method: org.openhab.model.script.actions.BusEvent.postUpdate(org.openhab.core.items.Item,java.lang.String) on instance: null
+2016-05-29 12:57:54.805 [ERROR] [m.r.internal.engine.RuleEngine] - Error during the execution of startup rule 'Initialize contact states': Could not invoke method: org.openhab.model.script.actions.BusEvent.postUpdate(org.openhab.core.items.Item,java.lang.String) on instance: null
+2016-05-29 12:57:54.933 [ERROR] [m.r.internal.engine.RuleEngine] - Error during the execution of startup rule 'Set random room temperatures': Could not invoke method: org.openhab.model.script.actions.BusEvent.postUpdate(org.openhab.core.items.Item,java.lang.String) on instance: null
+2016-05-29 12:57:55.040 [ERROR] [m.r.internal.engine.RuleEngine] - Error during the execution of startup rule 'Update max and min temperatures': cannot invoke method public abstract org.openhab.core.types.State org.openhab.core.persistence.HistoricItem.getState() on null
+2016-05-29 12:58:20.450 [INFO ] [penhab.io.rest.RESTApplication] - Stopped REST API
+2016-05-29 12:59:49.783 [WARN ] [o.config.core.ConfigDispatcher] - Main openHAB configuration file 'configurations/openhab.cfg' does not exist.
+2016-05-29 12:59:49.788 [INFO ] [.o.core.internal.CoreActivator] - openHAB runtime has been started (v1.8.3).
+2016-05-29 12:59:51.096 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - mDNS service has been started
+2016-05-29 12:59:51.139 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - Service Discovery initialization completed.
+2016-05-29 12:59:53.373 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-29 13:00:00.609 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.sitemap'
+2016-05-29 13:00:01.446 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Started Classic UI at /classicui/openhab.app
+2016-05-29 13:00:01.557 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'db4o.persist'
+2016-05-29 13:00:01.597 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'exec.persist'
+2016-05-29 13:00:01.612 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'logging.persist'
+2016-05-29 13:00:01.622 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'rrd4j.persist'
+2016-05-29 13:00:01.902 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.script'
+2016-05-29 13:00:02.339 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.items'
+2016-05-29 13:00:04.516 [INFO ] [.p.rrd4j.internal.RRD4jService] - Removing invalid defintion component = null heartbeat = 0 min/max = 0.0/0.0 step = 0 0 archives(s) = [] 0 items(s) = []
+2016-05-29 13:00:04.743 [INFO ] [.service.AbstractActiveService] - HTTP Refresh Service has been started
+2016-05-29 13:00:04.768 [INFO ] [.service.AbstractActiveService] - NTP Refresh Service has been started
+2016-05-29 13:00:04.967 [WARN ] [.httpclient.HttpMethodDirector] - Unable to respond to any of these challenges: {oauth=OAuth oauth_problem="OST_OAUTH_PARAMETER_ABSENT_ERROR", realm="yahooapis.com"}
+2016-05-29 13:00:04.967 [WARN ] [g.openhab.io.net.http.HttpUtil] - Method failed: HTTP/1.1 401 Unauthorized
+2016-05-29 13:00:05.196 [WARN ] [.httpclient.HttpMethodDirector] - Unable to respond to any of these challenges: {oauth=OAuth oauth_problem="OST_OAUTH_PARAMETER_ABSENT_ERROR", realm="yahooapis.com"}
+2016-05-29 13:00:05.196 [WARN ] [g.openhab.io.net.http.HttpUtil] - Method failed: HTTP/1.1 401 Unauthorized
+2016-05-29 13:00:12.484 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.rules'
+2016-05-29 13:00:13.672 [ERROR] [m.r.internal.engine.RuleEngine] - Error during the execution of startup rule 'Set random room temperatures': Could not invoke method: org.openhab.model.script.actions.BusEvent.postUpdate(org.openhab.core.items.Item,org.openhab.core.types.State) on instance: null
+2016-05-29 13:00:13.760 [ERROR] [m.r.internal.engine.RuleEngine] - Error during the execution of startup rule 'Update max and min temperatures': cannot invoke method public abstract org.openhab.core.types.State org.openhab.core.persistence.HistoricItem.getState() on null
+2016-05-29 13:01:05.498 [WARN ] [.httpclient.HttpMethodDirector] - Unable to respond to any of these challenges: {oauth=OAuth oauth_problem="OST_OAUTH_PARAMETER_ABSENT_ERROR", realm="yahooapis.com"}
+2016-05-29 13:01:05.499 [WARN ] [g.openhab.io.net.http.HttpUtil] - Method failed: HTTP/1.1 401 Unauthorized
+2016-05-29 13:01:05.595 [WARN ] [.httpclient.HttpMethodDirector] - Unable to respond to any of these challenges: {oauth=OAuth oauth_problem="OST_OAUTH_PARAMETER_ABSENT_ERROR", realm="yahooapis.com"}
+2016-05-29 13:01:05.595 [WARN ] [g.openhab.io.net.http.HttpUtil] - Method failed: HTTP/1.1 401 Unauthorized
+2016-05-29 13:02:06.456 [WARN ] [.httpclient.HttpMethodDirector] - Unable to respond to any of these challenges: {oauth=OAuth oauth_problem="OST_OAUTH_PARAMETER_ABSENT_ERROR", realm="yahooapis.com"}
+2016-05-29 13:02:06.456 [WARN ] [g.openhab.io.net.http.HttpUtil] - Method failed: HTTP/1.1 401 Unauthorized
+2016-05-29 13:02:06.664 [WARN ] [.httpclient.HttpMethodDirector] - Unable to respond to any of these challenges: {oauth=OAuth oauth_problem="OST_OAUTH_PARAMETER_ABSENT_ERROR", realm="yahooapis.com"}
+2016-05-29 13:02:06.664 [WARN ] [g.openhab.io.net.http.HttpUtil] - Method failed: HTTP/1.1 401 Unauthorized
+2016-05-29 13:03:07.088 [WARN ] [.httpclient.HttpMethodDirector] - Unable to respond to any of these challenges: {oauth=OAuth oauth_problem="OST_OAUTH_PARAMETER_ABSENT_ERROR", realm="yahooapis.com"}
+2016-05-29 13:03:07.088 [WARN ] [g.openhab.io.net.http.HttpUtil] - Method failed: HTTP/1.1 401 Unauthorized
+2016-05-29 13:03:07.183 [WARN ] [.httpclient.HttpMethodDirector] - Unable to respond to any of these challenges: {oauth=OAuth oauth_problem="OST_OAUTH_PARAMETER_ABSENT_ERROR", realm="yahooapis.com"}
+2016-05-29 13:03:07.183 [WARN ] [g.openhab.io.net.http.HttpUtil] - Method failed: HTTP/1.1 401 Unauthorized
+2016-05-29 13:04:07.586 [WARN ] [.httpclient.HttpMethodDirector] - Unable to respond to any of these challenges: {oauth=OAuth oauth_problem="OST_OAUTH_PARAMETER_ABSENT_ERROR", realm="yahooapis.com"}
+2016-05-29 13:04:07.587 [WARN ] [g.openhab.io.net.http.HttpUtil] - Method failed: HTTP/1.1 401 Unauthorized
+2016-05-29 13:04:07.778 [WARN ] [.httpclient.HttpMethodDirector] - Unable to respond to any of these challenges: {oauth=OAuth oauth_problem="OST_OAUTH_PARAMETER_ABSENT_ERROR", realm="yahooapis.com"}
+2016-05-29 13:04:07.778 [WARN ] [g.openhab.io.net.http.HttpUtil] - Method failed: HTTP/1.1 401 Unauthorized
+2016-05-29 13:04:09.026 [INFO ] [penhab.io.rest.RESTApplication] - Stopped REST API
