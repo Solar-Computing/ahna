@@ -1,0 +1,2 @@
+Number   Temperature   "Temperature [%.2f °C]"   {weather="locationId=northAve, type=temperature, property=current"}
+Number   Temp_Min         "Temperature [%.2f °C]"   {weather="locationId=northAve, forecast=1, type=temperature, property=min"}

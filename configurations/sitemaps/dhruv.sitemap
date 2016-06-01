@@ -1,0 +1,6 @@
+sitemap dhruv label="Dhruv's House"
+{
+  Frame label="Weather" {
+  	Text item=Temperature icon="temperature"
+  }
+}
